@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="TH Informática - computadores, periféricos e acessórios de informática.">
+  <title>TH Informática | Tecnologia para você</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/flexbox.css">
+  <link rel="stylesheet" href="css/grid.css">
+</head>
+
+<body>
+  <header class="topo">
+    <div class="container topo-conteudo">
+      <a href="#inicio" class="logo">TH <span>INFORMÁTICA</span></a>
+      <nav class="menu" aria-label="Menu principal">
+        <ul>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#categorias">Categorias</a></li>
+          <li><a href="#ofertas">Ofertas</a></li>
+          <li><a href="#sobre">Sobre nós</a></li>
+        </ul>
+      </nav>
+      <a href="#produtos" class="btn btn-azul">Comprar agora</a>
+    </div>
+  </header>
+
+  <main id="inicio">
+    <section class="hero">
+      <div class="container hero-conteudo">
+        <div class="hero-texto">
+          <p class="eyebrow">Tecnologia que acompanha você</p>
+          <h1>Seu próximo upgrade começa <em>aqui.</em></h1>
+          <p class="hero-descricao">Encontre computadores, periféricos e acessórios para estudar, trabalhar e jogar.
+            Desempenho, qualidade e tecnologia em um só lugar.</p>
+          <div class="hero-botoes">
+            <a href="#produtos" class="btn btn-azul">Explorar produtos</a>
+            <a href="#categorias" class="btn btn-contorno">Ver categorias</a>
+          </div>
+          <ul class="hero-numeros">
+            <li><strong>+500</strong><span>produtos disponíveis</span></li>
+            <li><strong>100%</strong><span>foco em tecnologia</span></li>
+            <li><strong>24h</strong><span>para enviar pedidos</span></li>
+          </ul>
+        </div>
+        <figure class="hero-imagem">
+          <img src="img/computador-completo.jpg" alt="Computador gamer">
+          <figcaption class="hero-etiqueta">Performance sem limites</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="secao" id="categorias">
+      <div class="container">
+        <header class="secao-cabecalho">
+          <p class="eyebrow">Encontre o que procura</p>
+          <h2>Explore por categoria</h2>
+          <p>Monte seu setup com os equipamentos certos para cada necessidade.</p>
+        </header>
+        <div class="categorias">
+          <a class="categoria" href="#produtos">
+            <span class="categoria-icone">▣</span>
+            <h3>Computadores</h3>
+            <p>PCs e notebooks</p>
+          </a>
+          <a class="categoria" href="#produtos">
+            <span class="categoria-icone">⌁</span>
+            <h3>Periféricos</h3>
+            <p>Mouse e teclado</p>
+          </a>
+          <a class="categoria" href="#produtos">
+            <span class="categoria-icone">◉</span>
+            <h3>Monitores</h3>
+            <p>Imagem e qualidade</p>
+          </a>
+          <a class="categoria" href="#produtos">
+            <span class="categoria-icone">♫</span>
+            <h3>Áudio</h3>
+            <p>Headsets e caixas</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao secao-escura" id="produtos">
+      <div class="container">
+        <header class="secao-cabecalho cabecalho-linha">
+          <div>
+            <p class="eyebrow">Escolhas da TH Informática</p>
+            <h2>Produtos em destaque</h2>
+            <p>Equipamentos selecionados para melhorar sua experiência.</p>
+          </div>
+          <a href="#ofertas" class="link-azul">Ver ofertas especiais →</a>
+        </header>
+        <div class="produtos">
+          <article class="produto">
+            <span class="produto-selo">Mais vendido</span>
+            <img src="img/computador.jpg" alt="Computador desktop gamer">
+            <div class="produto-info">
+              <p class="produto-categoria">Computadores</p>
+              <h3>PC Gamer Starter</h3>
+              <p class="produto-descricao">Ótimo para jogos, estudos e tarefas do dia a dia.</p>
+              <div class="produto-preco"><strong>R$ 3.499,90</strong><del>R$ 3.899,90</del></div>
+              <a href="#contato" class="btn btn-azul btn-produto">Tenho interesse</a>
+            </div>
+          </article>
+          <article class="produto">
+            <img src="img/mouseP.jpg" alt="Mouse gamer preto">
+            <div class="produto-info">
+              <p class="produto-categoria">Periféricos</p>
+              <h3>Mouse Gamer</h3>
+              <p class="produto-descricao">Precisão e conforto para longas partidas.</p>
+              <div class="produto-preco"><strong>R$ 159,90</strong><del>R$ 199,90</del></div>
+              <a href="#contato" class="btn btn-azul btn-produto">Tenho interesse</a>
+            </div>
+          </article>
+          <article class="produto">
+            <span class="produto-selo selo-oferta">Oferta</span>
+            <img src="img/teclado.jpg" alt="Teclado mecânico para computador">
+            <div class="produto-info">
+              <p class="produto-categoria">Periféricos</p>
+              <h3>Teclado Mecânico</h3>
+              <p class="produto-descricao">Resposta rápida e iluminação personalizável.</p>
+              <div class="produto-preco"><strong>R$ 289,90</strong><del>R$ 349,90</del></div>
+              <a href="#contato" class="btn btn-azul btn-produto">Tenho interesse</a>
+            </div>
+          </article>
+          <article class="produto">
+            <img src="img/monitor.jpg" alt="Monitor de computador sobre uma mesa">
+            <div class="produto-info">
+              <p class="produto-categoria">Monitores</p>
+              <h3>Monitor Full HD 24”</h3>
+              <p class="produto-descricao">Tela ampla para trabalhar e aproveitar seus jogos.</p>
+              <div class="produto-preco"><strong>R$ 799,90</strong><del>R$ 899,90</del></div>
+              <a href="#contato" class="btn btn-azul btn-produto">Tenho interesse</a>
+            </div>
+          </article>
+          <article class="produto">
+            <img src="img/Fone.jpg" alt="Headset preto">
+            <div class="produto-info">
+              <p class="produto-categoria">Áudio</p>
+              <h3>Headset Surround</h3>
+              <p class="produto-descricao">Som imersivo e microfone para comunicação clara.</p>
+              <div class="produto-preco"><strong>R$ 229,90</strong><del>R$ 279,90</del></div>
+              <a href="#contato" class="btn btn-azul btn-produto">Tenho interesse</a>
+            </div>
+          </article>
+          <article class="produto">
+            <img src="img/mousepad.png" alt="Mousepad grande para setup">
+            <div class="produto-info">
+              <p class="produto-categoria">Acessórios</p>
+              <h3>Mousepad Extended</h3>
+              <p class="produto-descricao">Mais espaço e deslize uniforme para seu mouse.</p>
+              <div class="produto-preco"><strong>R$ 89,90</strong><del>R$ 119,90</del></div>
+              <a href="#contato" class="btn btn-azul btn-produto">Tenho interesse</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="secao" id="ofertas">
+      <div class="container oferta">
+        <div class="oferta-texto">
+          <p class="eyebrow">Oferta da semana</p>
+          <h2>Prepare seu setup para o próximo nível.</h2>
+          <p>Confira nossos produtos em destaque e encontre opções para deixar seu espaço mais completo.</p>
+          <a href="#produtos" class="btn btn-azul">Conferir produtos</a>
+        </div>
+        <figure class="oferta-imagem">
+          <img src="img/Banner.jpg" alt="Setup de computador moderno">
+        </figure>
+      </div>
+    </section>
+
+    <section class="secao secao-escura" id="sobre">
+      <div class="container beneficios">
+        <header class="secao-cabecalho">
+          <p class="eyebrow">Por que escolher a TH Informática?</p>
+          <h2>Tecnologia com confiança</h2>
+          <p>Nosso objetivo é ajudar você a encontrar os equipamentos ideais, com informação clara e atendimento
+            próximo.</p>
+        </header>
+        <div class="beneficios-lista">
+          <article class="beneficio">
+            <span>01</span>
+            <h3>Variedade</h3>
+            <p>Produtos para diferentes perfis, desde quem está começando até quem quer montar um setup completo.</p>
+          </article>
+          <article class="beneficio">
+            <span>02</span>
+            <h3>Atendimento</h3>
+            <p>Ajuda para escolher peças e acessórios que combinam com sua necessidade.</p>
+          </article>
+          <article class="beneficio">
+            <span>03</span>
+            <h3>Qualidade</h3>
+            <p>Uma seleção de equipamentos pensada para acompanhar sua rotina.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape" id="contato">
+    <div class="container rodape-conteudo">
+      <div class="rodape-marca">
+        <a href="#inicio" class="logo">TH <span>INFORMÁTICA</span></a>
+        <p>Sua loja de tecnologia, informática e acessórios.</p>
+      </div>
+      <address class="rodape-contato">
+        <h3>Fale com a gente</h3>
+        <p>Atendimento: segunda a sábado, das 9h às 18h</p>
+        <p><a href="mailto:contato@thinformatica.com.br">contato@thinformatica.com.br</a></p>
+        <p>(17) 0000-0000</p>
+      </address>
+      <ul class="rodape-links">
+        <li><a href="#produtos">Produtos</a></li>
+        <li><a href="#categorias">Categorias</a></li>
+        <li><a href="#ofertas">Ofertas</a></li>
+        <li><a href="#sobre">Sobre nós</a></li>
+      </ul>
+    </div>
+    <p class="rodape-copy">&copy; 2026 TH Informática. Projeto fictício para fins didáticos.</p>
+  </footer>
+</body>
+
+</html>
